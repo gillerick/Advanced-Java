@@ -1,4 +1,4 @@
-package java.advanced.generics;
+package com.company.generics;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,6 +11,7 @@ public class GenericsExample {
 	// Example without Generics
         List names = new ArrayList();
         names.add("Gill");
+        //We have to cost the object to a string whenever we add it
         String name = (String) names.get(0);
         System.out.println("First name: " + name);
         names.add(8);
@@ -20,5 +21,6 @@ public class GenericsExample {
         names2.add("Gill");
         String name2 = names2.get(0);
         System.out.println("First name: " + name2);
+        //names2.add(89) Here this line will throw an error
     }
 }
