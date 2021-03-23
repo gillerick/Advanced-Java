@@ -10,5 +10,10 @@ public class Main {
             }
         };
         gm.greet("Gill");
+
+        GreetingsMessage gm2 = (String name) -> {
+            System.out.println("Hello " + name);
+        };
+        gm2.greet("Erick");
     }
 }
