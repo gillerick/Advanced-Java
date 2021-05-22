@@ -4,6 +4,6 @@ package com.company.lambdas;
 
 public interface GreetingsMessage {
     //Abstract method
-    public abstract void greet(String name);
+    void greet(String name);
     }
 
